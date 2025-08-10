@@ -1,0 +1,16 @@
+.postsStyles {
+  p {
+    font-size: 1.25rem;
+    font-weight: 525;
+    line-height: 1.6;
+    letter-spacing: 0.18px;
+  }
+}
+@media screen and (max-width: 447px) {
+  .postsStyles {
+    p {
+      font-size: 1.125rem;
+      letter-spacing: -0.035px;
+    }
+  }
+}
