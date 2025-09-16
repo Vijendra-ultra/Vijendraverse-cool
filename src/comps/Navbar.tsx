@@ -15,25 +15,23 @@ const Navbar = () => {
         </Link>
         <div className="ml-auto displayNone md:flex   pt-1 gap-4 pr-8">
           <Link href="/about">
-            <button className="text-xl roboto nav--btn  hover:bg-[#ddd] hover:dark:bg-[#212529]  ">
+            <button className="text-xl roboto nav--btn cursor-pointer  hover:bg-[#ddd] hover:dark:bg-[#212529]  ">
               About
             </button>
           </Link>
           <Link href="/blgs">
-            <button className="text-xl roboto nav--btn hover:bg-[#ddd]  hover:dark:bg-[#212529]  ">
+            <button className="text-xl cursor-pointer roboto nav--btn hover:bg-[#ddd]  hover:dark:bg-[#212529]  ">
               Blogs
             </button>
           </Link>
-          <span className="text-xl roboto nav--btn hover:bg-[#ddd] hover:dark:bg-[#212529]  ">
-            Musings
-          </span>
+
           <div>
             <DarkModeToggleBtn />
           </div>
         </div>
         <div className=" block md:hidden ml-auto">
           {!isOpen ? (
-            <button onClick={() => setIsOpen(true)}>
+            <button className="cursor-pointer" onClick={() => setIsOpen(true)}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="32px"
@@ -45,7 +43,7 @@ const Navbar = () => {
               </svg>
             </button>
           ) : (
-            <button onClick={() => setIsOpen(false)}>
+            <button className="cursor-pointer" onClick={() => setIsOpen(false)}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="32px"

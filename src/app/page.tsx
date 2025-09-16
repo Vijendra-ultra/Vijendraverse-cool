@@ -80,6 +80,11 @@ const Article = () => {
             and I wanted to blog since my PUC days.
           </p>
           <p className=" mt-4  text-pforMobileSmall md:text-xl  md:pnormal leading-normal">
+            Vijendraverse is mostly about things I wanted to blog about just
+            like a grandad wanting to tell up things to kids. But in this case I
+            do occassionally blog about cool things too.
+          </p>
+          <p className=" mt-4  text-pforMobileSmall md:text-xl  md:pnormal leading-normal">
             Don't you be worried about the chaos I'm gonna cause or am I the
             chaos you try to stop. Will there be a way to escape from this
             chaos. If yes, how can you escape from something you fear. Confront

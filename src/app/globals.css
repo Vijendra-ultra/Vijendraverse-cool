@@ -81,7 +81,14 @@
       @apply mb-5;
       /* font-family: "Inter", serif; */
       font-family: "Roboto", Arial, Helvetica, sans-serif;
-      @apply text-pblack dark:text-gray-300;
+      @apply text-pblack dark:text-white;
+    }
+    h2 {
+      font-family: "Inter", serif;
+      @apply text-2xl sm:text-4xl md:text-5xl mb-8;
+    }
+    img {
+      @apply my-8 min-h-[200px] min-w-full sm:min-w-auto sm:min-h-[400px] md:min-h-[500px] rounded-sm;
     }
   }
 }

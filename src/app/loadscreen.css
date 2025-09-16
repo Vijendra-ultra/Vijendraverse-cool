@@ -16,7 +16,7 @@
   0% {
     transform: rotate(0deg);
   }
-  100% {
+  70% {
     transform: rotate(360deg);
   }
 }

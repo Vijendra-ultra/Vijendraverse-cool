@@ -8,7 +8,7 @@ const DarkModeToggleBtn = () => {
     >
       <button
         onClick={DarkModeSwitcher}
-        className=" rounded-lg  transition-all ease-linear duration-100  p-2 flex items-center gap-12 md:px-2 md:gap-0 bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-700"
+        className=" rounded-lg cursor-pointer  transition-all ease-linear duration-100  p-2 flex items-center gap-12 md:px-2 md:gap-0 bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-700"
       >
         {" "}
         <span className="text-xl roboto md:hidden">Themes</span>

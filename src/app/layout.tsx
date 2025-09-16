@@ -1,6 +1,21 @@
 import DarkModeGetter from "@/hooks/DarkModeGetter";
 import "./globals.css";
 import Navbar from "@/comps/Navbar";
+
+export const metadata = {
+  title: "Vijendraverse-A blog by Vijendra(cool raw thoughts only)",
+  description:
+    "Vijendraverse is blog written by Vijendra mainly covering up tech, life and more.",
+  keywords: [
+    "Vijendra",
+    "Vijendraverse",
+    "Vijendra Vasre",
+    "Vijendra Blog",
+    "Vijendra Poojary",
+    "Verse",
+    "Vij",
+  ],
+};
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -8,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <title>Vijendra's blogs maybe poetic,idiotic or everything.</title>
+      </head>
       <body className="dark:bg-darkModeBlack bg-white text-black dark:text-white  ">
         <script
           dangerouslySetInnerHTML={{
