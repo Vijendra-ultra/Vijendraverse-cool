@@ -76,7 +76,7 @@ const Navbar = () => {
           </Link>
           <Link href="/contacts">
             {" "}
-            <button className="text-xl cursor-pointer roboto nav--btn hover:bg-[#ddd]  hover:dark:bg-[#212529]  ">
+            <button className="text-xl px-6 roboto nav--btn hover:bg-[#ddd]  hover:dark:bg-[#212529]  ">
               Contact
             </button>
           </Link>
