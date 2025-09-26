@@ -42,7 +42,7 @@ const Blogs = () => {
     } else {
       return;
     }
-  }, [setBlogsPreviews, setError]);
+  }, [setBlogsPreviews, blogsPreviews, setError]);
 
   return (
     <div className="major--section mx-auto pt-20 pb-12 md:pt-28">

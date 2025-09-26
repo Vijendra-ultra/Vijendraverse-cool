@@ -74,6 +74,12 @@ const Navbar = () => {
               Blogs
             </button>
           </Link>
+          <Link href="/contacts">
+            {" "}
+            <button className="text-xl cursor-pointer roboto nav--btn hover:bg-[#ddd]  hover:dark:bg-[#212529]  ">
+              Contact
+            </button>
+          </Link>
           <div className="flex items-center px-2 gap-3">
             <div className="px-2">
               <DarkModeToggleBtn />
