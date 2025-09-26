@@ -77,18 +77,29 @@
     @apply md:px-3;
   }
   .postDisplayComp {
-    p {
+    p,
+    pre {
       @apply mb-5;
       /* font-family: "Inter", serif; */
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
-      @apply text-pblack dark:text-white;
+      font-family: "Inter", Arial, Helvetica, sans-serif;
+      @apply text-pblack dark:text-[#C8C8C8] md:dark:text-white;
     }
     h2 {
       font-family: "Inter", serif;
-      @apply text-2xl sm:text-4xl md:text-5xl mb-8;
+      @apply text-3xl font-bold  md:text-4xl mb-3 md:mb-6;
+    }
+    h3 {
+      font-family: "Inter", serif;
+      @apply text-xl font-bold sm:text-2xl md:text-3xl mb-3 md:mb-6;
+    }
+    strong {
+      @apply dark:text-white;
     }
     img {
       @apply my-8 min-h-[200px] min-w-full sm:min-w-auto sm:min-h-[400px] md:min-h-[500px] rounded-sm;
+    }
+    .code {
+      @apply px-3 py-4 dark:bg-gray-500 dark:text-white;
     }
   }
 }
