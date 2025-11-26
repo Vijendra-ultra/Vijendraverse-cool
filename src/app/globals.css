@@ -101,5 +101,11 @@
     .code {
       @apply px-3 py-4 dark:bg-gray-500 dark:text-white;
     }
+    .note {
+      @apply bg-[#495057] px-2 py-1  md:px-3 md:py-2 md:mb-4 mb-2 rounded-md;
+    }
+    .note p {
+      @apply text-white mb-0;
+    }
   }
 }

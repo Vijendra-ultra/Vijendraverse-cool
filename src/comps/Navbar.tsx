@@ -74,7 +74,7 @@ const Navbar = () => {
               Blogs
             </button>
           </Link>
-          <Link href="/contacts">
+          <Link href="/contacts" onClick={() => setIsOpen(false)}>
             {" "}
             <button className="text-xl px-6 roboto nav--btn hover:bg-[#ddd]  hover:dark:bg-[#212529]  ">
               Contact
