@@ -15,9 +15,6 @@ const BlogDisplayer = ({ params }: { params: Promise<{ id: string }> }) => {
       .eq("id", id)
       .single()
   );
-  const RequiredComps = Array.isArray(data?.compsRequired)
-    ? data.compsRequired.map((compName: string) => componentsMap[compName])
-    : [];
   return (
     <article className="pt-24 px-5 major--section postDisplayComp mx-auto  mb-24">
       <h1 className="text-hxl leading-11 md:leading-16 lsp sm:text-5xl md:text-6xl fw-max inter--font">
