@@ -1,5 +1,4 @@
 import Styles from "@/app/posts.module.css";
-import { componentsMap } from "@/comps/CoponentsMap";
 import { supabase } from "@/supabase";
 import { DateConverter } from "@/utils/functions";
 import Link from "next/link";
