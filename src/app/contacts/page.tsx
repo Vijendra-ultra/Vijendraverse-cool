@@ -12,6 +12,8 @@ const Contacts = () => {
             </span>
             <a
               type="email"
+              target="_blank"
+              href="mailto:vijendravasre66@gmail.com"
               title="Blogger's email"
               className="pnormal md:text-xl text-pforMobileSmall underline  hover:text-pink leading-normal"
             >

@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/comps/Navbar";
 
 export const metadata = {
-  title: "Vijendraverse--A blog by Vijendra (cool raw thoughts only)",
+  title: "Vijendraverse: A blog by me, Vijendra (cool raw thoughts only)",
   description:
     "Vijendraverse is blog written by Vijendra mainly covering up tech, life and more.",
   keywords: [
